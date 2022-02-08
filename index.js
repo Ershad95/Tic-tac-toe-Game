@@ -14,7 +14,8 @@ function clickOp(e, row, col) {
     e.classList.add("disabled");
     ++SelectedCounter;
     if (SelectedCounter >= 3) {
-        //----------Row Scan-----------
+        //----------Row Scan---- -------
+
         const row1 = gamePad[0][0] == turnGame && gamePad[0][1] == turnGame && gamePad[0][2] == turnGame;
         const row2 = gamePad[1][0] == turnGame && gamePad[1][1] == turnGame && gamePad[1][2] == turnGame;
         const row3 = gamePad[2][0] == turnGame && gamePad[2][1] == turnGame && gamePad[2][2] == turnGame;
